@@ -27,6 +27,6 @@ app.get('/', function (req, res) {
 	});
 });
 
-app.listen(1000, function () {
-	console.log('Check http://localhost:4000/ in a browser to see the output.');
+app.listen(3000, function () {
+	console.log('Check http://localhost:3000/ in a browser to see the output.');
 });
