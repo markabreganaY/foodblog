@@ -1,0 +1,23 @@
+[
+	{
+		"id"			: "recommend-101",
+		"datePosted" 	: "2016.01.01",
+		"title"			: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+		"image"			: "images/thumbnails/img-article-1.jpg",
+		"url"			: "#recommend-101"
+	},
+	{
+		"id"			: "recommend-102",
+		"datePosted" 	: "2016.01.01",
+		"title"			: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+		"image"			: "images/thumbnails/img-article-1.jpg",
+		"url"			: "#recommend-102"
+	},
+	{
+		"id"			: "recommend-103",
+		"datePosted" 	: "2016.01.01",
+		"title"			: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+		"image"			: "images/thumbnails/img-article-1.jpg",
+		"url"			: "#recommend-103"
+	}
+]

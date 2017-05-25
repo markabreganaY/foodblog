@@ -1,0 +1,36 @@
+			<aside class="sidebar pull-right">
+			
+				<div class="widget widget-banner">
+					<% widgetBanner.forEach(function(widget){ %>
+					<figure class="<%= widget.id %>"><a href="<%= widget.url %>"><img src="<%= widget.image %>" alt="<%= widget.id %>" /></a></figure>
+					<% }) %>
+				</div><!--widget-banner-->
+				
+				<div class="widget widget-recommend-list">
+					<header class="widget-header">Recommend</header>
+					
+					<% recommend.forEach(function(recommend){ %>
+					<div class="single-recommend <%= recommend.id %>">
+						<a href="<%= recommend.url %>">
+							<figure class="pull-left"><img src="<%= recommend.image %>" alt="<%= recommend.title %>" /></figure>
+							<aside class="recommend-content pull-right">
+								<h1 class="recommend-title"><%= recommend.title %></h1>
+								<p class="recommend-date"><%= recommend.datePosted %></p>
+							</aside>
+							<div class="clear"></div>
+						</a>
+					</div>
+					<% }) %>
+					
+				</div><!--widget-recommed-list-->
+				
+				<div class="widget widget-banner-list">
+					<ul>
+						<% widgetSmallBanner.forEach(function(widget){ %>
+						<li class="<%= widget.id %>"><a href="<%= widget.url %>"><img src="<%= widget.image %>" alt="<%= widget.id %>" /></a></li>
+						<% }) %>
+					</ul>
+				</div><!--widget-banner-list-->
+				
+				<div class="clear"></div>
+			</aside>

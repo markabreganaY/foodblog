@@ -1,0 +1,56 @@
+/* main*/
+.article-list{
+	width:690px;
+	margin:0 0 50px;
+}
+.single-article{
+	margin:0 0 40px;
+	
+	a{
+		text-decoration: none;
+		&:hover .article-title{
+			color: $secondary-font-color;
+		}
+	}
+	
+	figure{
+		width:206px;
+		
+		img{
+			width: $thumbnail-size;
+		}
+	}
+	aside{
+		width:468px;
+	}
+}
+.article-date{
+	color: $forth-font-color;
+	margin: 0 0 10px;
+}
+.article-title{
+	font-size: 18px;
+	line-height: 24px;
+	margin: 0 0 10px;
+}
+.botton-more{
+	padding:20px 0 0;
+	a{
+		background:url(../images/arrow-more.png) no-repeat 95% center $button-color;
+		display: block;
+		font-size:20px;
+		line-height: 26px;
+		text-align: center;
+
+		width: 404px;
+		margin: 0 auto;
+		padding:10px 0;
+
+		color: $third-font-color;
+		text-decoration: none;
+		
+		&:hover{
+			background-color: $third-background-color;
+		}
+	}
+}

@@ -1,0 +1,19 @@
+/* CSS Document */
+p, h1, h2, h3, h4{margin:0 0 15px;}
+ul, ol{	margin: 0 0 15px 25px; }
+
+strong, b, h1, h2, h3, h4, h5 {font-weight: bold;}
+em, i {font-style: italic;}
+
+/* Anchors */
+a{ 
+	color:$primary-font-color; 
+	outline:none; 
+	&:hover{ 
+		text-decoration:none; 
+	}
+	img { 
+		border: 0px; 
+		text-decoration: none; 
+	}
+}

@@ -1,0 +1,82 @@
+[
+	{
+		"id"			: "article-101",
+		"datePosted" 	: "2016.01.01",
+		"title"			: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+		"content"		: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat...",
+		"image"			: "images/thumbnails/img-article-1.jpg",
+		"url"			: "#article-101"
+	},
+	{
+		"id"			: "article-102",
+		"datePosted" 	: "2016.01.01",
+		"title"			: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+		"content"		: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat...",
+		"image"			: "images/thumbnails/img-article-2.jpg",
+		"url"			: "#article-102"
+	},
+	{
+		"id"			: "article-103",
+		"datePosted" 	: "2016.01.01",
+		"title"			: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+		"content"		: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat...",
+		"image"			: "images/thumbnails/img-article-1.jpg",
+		"url"			: "#article-103"
+	},
+	{
+		"id"			: "article-104",
+		"datePosted" 	: "2016.01.01",
+		"title"			: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+		"content"		: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat...",
+		"image"			: "images/thumbnails/img-article-1.jpg",
+		"url"			: "#article-104"
+	},
+	{
+		"id"			: "article-105",
+		"datePosted" 	: "2016.01.01",
+		"title"			: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+		"content"		: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat...",
+		"image"			: "images/thumbnails/img-article-1.jpg",
+		"url"			: "#article-105"
+	},
+	{
+		"id"			: "article-106",
+		"datePosted" 	: "2016.01.01",
+		"title"			: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+		"content"		: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat...",
+		"image"			: "images/thumbnails/img-article-1.jpg",
+		"url"			: "#article-106"
+	},
+	{
+		"id"			: "article-107",
+		"datePosted" 	: "2016.01.01",
+		"title"			: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+		"content"		: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat...",
+		"image"			: "images/thumbnails/img-article-1.jpg",
+		"url"			: "#article-107"
+	},
+	{
+		"id"			: "article-108",
+		"datePosted" 	: "2016.01.01",
+		"title"			: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+		"content"		: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat...",
+		"image"			: "images/thumbnails/img-article-1.jpg",
+		"url"			: "#article-108"
+	},
+	{
+		"id"			: "article-109",
+		"datePosted" 	: "2016.01.01",
+		"title"			: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+		"content"		: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat...",
+		"image"			: "images/thumbnails/img-article-1.jpg",
+		"url"			: "#article-109"
+	},
+	{
+		"id"			: "article-110",
+		"datePosted" 	: "2016.01.01",
+		"title"			: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+		"content"		: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat...",
+		"image"			: "images/thumbnails/img-article-1.jpg",
+		"url"			: "#article-110"
+	}	
+]

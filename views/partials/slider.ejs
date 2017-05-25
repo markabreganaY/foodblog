@@ -1,0 +1,31 @@
+	<section id="slider">
+		<div class="slider-wrap">
+			<div class="slides">
+				<ul class="slide-list">
+					<% sliderData.forEach(function(slide){ %>
+					<li class="slide <%= slide.id %>" style="background-image:url('<%= slide.image %>')">
+						<div class="container-wrap">
+							<article class="slide-content">
+								<h1 class="slide-title"><%= slide.title %></h1>
+								<p><%- slide.description %></p>
+							</article>
+						</div>
+					</li>
+					<% }) %>
+				</ul>
+			</div>
+			<div class="direction-nav">
+				<div class="container-wrap">
+					<figure class="direction-left"><a href="#"><img src="images/slider-arrow-left.png" alt="" /></a></figure>
+					<figure class="direction-right"><a href="#"><img src="images/slider-arrow-right.png" alt="" /></a></figure>
+				</div>
+			</div>
+			<div class="pagination-nav">
+				<ol>
+					<% sliderData.forEach(function(slide, index){ %>
+					<li class="<%= slide.id %>"><a href="#"><%= index+1 %></a></li>
+					<% }) %>
+				</ol>
+			</div>
+		</div>
+	</section><!--slider-->

@@ -1,0 +1,20 @@
+[
+	{
+		"id"			: "slider-101",
+		"title"			: "Lorem ipsum dolor sit amet",
+		"description"	: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit<br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+		"image"			: "images/banner/banner-1.jpg"
+	},
+	{
+		"id"			: "slider-102",
+		"title"			: "Lorem ipsum dolor sit amet",
+		"description"	: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit<br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+		"image"			: "images/banner/banner-2.jpg"
+	},
+	{
+		"id"			: "slider-103",
+		"title"			: "Lorem ipsum dolor sit amet",
+		"description"	: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit<br />Lorem ipsum dolor sit amet, consectetuer adipiscing elit",
+		"image"			: "images/banner/banner-3.jpg"
+	}
+]

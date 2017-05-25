@@ -1,0 +1,17 @@
+[
+	{
+		"id"	: "small-banner-1",
+		"image"	: "images/sidebar-img-list.jpg",
+		"url"	: "#small-banner-1"
+	},
+	{
+		"id"	: "small-banner-2",
+		"image"	: "images/sidebar-img-list.jpg",
+		"url"	: "#small-banner-1"
+	},
+	{
+		"id"	: "small-banner-3",
+		"image"	: "images/sidebar-img-list.jpg",
+		"url"	: "#small-banner-1"
+	}
+]

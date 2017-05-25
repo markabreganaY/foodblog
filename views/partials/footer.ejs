@@ -1,0 +1,15 @@
+	<footer class="main-footer">
+		<div class="container-wrap">
+			<nav class="pull-left">
+				<ul>
+					<% footerNav.forEach(function(nav){ %>
+						<li class="<%= nav.id %>"><a href="<%= nav.url %>" alt="<%= nav.title %>"><%= nav.title %></a></li>
+					<% }) %>
+				</ul>
+			</nav>
+			<% siteData.forEach(function(site){ %>
+			<aside class="pull-right"><%= site.copyright %></aside>
+			<% }) %>
+			<div class="clear"></div>
+		</div><!--container-wrap-->
+	</footer><!--footer-->

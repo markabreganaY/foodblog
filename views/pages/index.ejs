@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<!-- start head -->
+	<%- include("../partials/head") %>
+<!-- end head -->
+<body>
+
+<section class="container">
+
+	<!-- start header-->
+	<%- include("../partials/header") %>
+	<!-- end header -->
+	
+	<!-- start slider -->
+	<%- include("../partials/slider") %>
+	<!-- end slider-->
+	
+	<section id="body-content" class="content-section">
+		<div class="container-wrap">
+			
+			<!-- start main -->
+			<%- include("../partials/main") %>
+			<!-- end main -->
+			
+			<!-- start sidebar -->
+			<%- include("../partials/sidebar") %>
+			<!-- end sidebar -->
+			
+			<div class="clear"></div>
+		</div><!--container-wrap-->
+	</section><!--body-content-->
+	
+	<section class="scroll-up">
+		<div class="container-wrap">
+			<figure class="align-right"><a href="#"><img src="images/arrow-up.png" alt="" /></a></figure>
+		</div>
+	</section>
+	<!-- start footer -->
+	<%- include("../partials/footer") %>
+	<!-- end footer -->
+	
+</section><!--container-->
+
+<script>
+$(document).ready(function(){
+	$('.align-right a').click(function(){
+		$("html, body").animate({
+			scrollTop: 0
+		}, 500);
+		return false;
+	});
+})
+</script>
+
+</body>
+</html>

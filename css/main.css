@@ -1,0 +1,310 @@
+@charset "UTF-8";
+/* CSS Document */
+/* mixin */
+/* CSS Document */
+/* reset */
+* {
+  margin: 0;
+  padding: 0; }
+
+img {
+  max-width: 100%;
+  vertical-align: top; }
+
+input, textarea {
+  outline: none; }
+
+header, section, footer, aside, nav, main, article, figure {
+  display: block; }
+
+/* Paragraphs */
+* p:last-child {
+  margin-bottom: 0; }
+
+/* Lists */
+ul {
+  list-style: outside disc; }
+
+ol {
+  list-style: outside decimal; }
+
+dl {
+  margin: 0 0 1.5em 0; }
+
+dt {
+  font-weight: bold; }
+
+dd {
+  margin-left: 1.5em; }
+
+/* Quotes */
+blockquote {
+  font-style: italic; }
+
+/* Tables */
+table {
+  margin: .5em auto 1.5em auto;
+  width: 98%; }
+
+/* Thead */
+thead th {
+  padding: .5em .4em;
+  text-align: left; }
+
+/* Tbody */
+tbody td {
+  padding: .5em .4em; }
+
+/* Tfoot */
+/* base */
+.container, .slide-list .slide {
+  width: 1400px;
+  margin: 0 auto; }
+
+.container-wrap {
+  width: 1080px;
+  margin: 0 auto; }
+
+body {
+  background: #fff;
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000;
+  letter-spacing: -1px; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.align-right {
+  text-align: right; }
+
+.clear {
+  clear: both;
+  height: 0; }
+
+.content-section {
+  padding: 43px 0 0; }
+
+/* CSS Document */
+p, h1, h2, h3, h4 {
+  margin: 0 0 15px; }
+
+ul, ol {
+  margin: 0 0 15px 25px; }
+
+strong, b, h1, h2, h3, h4, h5 {
+  font-weight: bold; }
+
+em, i {
+  font-style: italic; }
+
+/* Anchors */
+a {
+  color: #000;
+  outline: none; }
+  a:hover {
+    text-decoration: none; }
+  a img {
+    border: 0px;
+    text-decoration: none; }
+
+/* header */
+.main-header {
+  padding: 28px 0 27px;
+  border-top: 3px solid #e7ba2f; }
+  .main-header figure {
+    text-align: center; }
+
+/* CSS Document */
+/* slider */
+.slider-wrap {
+  position: relative;
+  z-index: 1; }
+
+.slides {
+  height: 418px;
+  overflow: hidden; }
+
+.slide-list {
+  list-style: none;
+  margin: 0;
+  width: 300%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  .slide-list .slide {
+    background: none no-repeat center top transparent;
+    min-height: 418px;
+    float: left; }
+
+.slide-content {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  text-align: center;
+  padding: 130px 0 0; }
+  .slide-content .slide-title {
+    font-size: 60px;
+    line-height: 62px;
+    margin: 0 0 40px;
+    letter-spacing: 4px; }
+
+.direction-nav {
+  position: absolute;
+  z-index: 99;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  margin: -24px 0 0; }
+
+.direction-left {
+  float: left; }
+
+.direction-right {
+  float: right; }
+
+.pagination-nav {
+  position: absolute;
+  z-index: 99;
+  bottom: 17px;
+  left: 0;
+  width: 100%; }
+  .pagination-nav ol {
+    list-style: none;
+    margin: 0;
+    text-align: center; }
+    .pagination-nav ol li {
+      display: inline-block;
+      margin: 0 7px; }
+      .pagination-nav ol li a {
+        background-color: #fff;
+        display: block;
+        width: 16px;
+        height: 16px;
+        text-indent: 1000px;
+        overflow: hidden;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%; }
+      .pagination-nav ol li.active a, .pagination-nav ol li > a:hover {
+        background-color: #e7ba2f; }
+
+/* main*/
+.article-list {
+  width: 690px;
+  margin: 0 0 50px; }
+
+.single-article {
+  margin: 0 0 40px; }
+  .single-article a {
+    text-decoration: none; }
+    .single-article a:hover .article-title {
+      color: #e7ba2f; }
+  .single-article figure {
+    width: 206px; }
+    .single-article figure img {
+      width: 206px; }
+  .single-article aside {
+    width: 468px; }
+
+.article-date {
+  color: #999999;
+  margin: 0 0 10px; }
+
+.article-title {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 10px; }
+
+.botton-more {
+  padding: 20px 0 0; }
+  .botton-more a {
+    background: url(../images/arrow-more.png) no-repeat 95% center #333333;
+    display: block;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    width: 404px;
+    margin: 0 auto;
+    padding: 10px 0;
+    color: #fff;
+    text-decoration: none; }
+    .botton-more a:hover {
+      background-color: #000000; }
+
+/* sidebar */
+.sidebar {
+  background-color: #efefef;
+  width: 340px;
+  margin: 0 0 50px; }
+
+.widget {
+  padding: 20px 20px 0 20px; }
+
+.widget-header {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+  text-align: center;
+  margin: 20px 0; }
+
+.single-recommend {
+  margin: 0 0 20px; }
+  .single-recommend figure img {
+    width: 112px; }
+  .single-recommend a {
+    text-decoration: none; }
+    .single-recommend a:hover .recommend-title {
+      color: #e7ba2f; }
+
+.recommend-content {
+  width: 180px; }
+
+.recommend-title {
+  margin: 0 0 6px;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 15px; }
+
+.recommend-date {
+  font-size: 12px;
+  line-height: 14px;
+  margin: 0;
+  color: #999999; }
+
+.widget-banner-list {
+  padding-bottom: 3px; }
+  .widget-banner-list ul {
+    list-style: none;
+    margin: 0; }
+    .widget-banner-list ul li {
+      margin: 0 0 17px; }
+
+/* footer */
+.main-footer {
+  background-color: #000000;
+  padding: 14px 0;
+  color: #fff;
+  margin: 20px 0 0; }
+  .main-footer nav ul {
+    list-style: none;
+    margin: 0; }
+    .main-footer nav ul li {
+      float: left;
+      margin: 0 19px 0 0; }
+      .main-footer nav ul li a {
+        text-decoration: none;
+        color: #fff; }
+        .main-footer nav ul li a:hover {
+          color: #e7ba2f; }
+
+/* CSS Document */
+/* CSS Document */

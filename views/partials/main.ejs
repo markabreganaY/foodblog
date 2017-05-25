@@ -1,0 +1,16 @@
+			<main class="article-list pull-left">
+				<% mainData.forEach(function(article){ %>
+				<article class="single-article <%= article.id %>">
+					<a href="<%= article.url %>">
+						<figure class="pull-left"><img src="<%= article.image %>" alt="<%= article.title %>" /></figure>
+						<aside class="article-content pull-right">
+							<p class="article-date"><%= article.datePosted %></p>
+							<h1 class="article-title"><%= article.title %></h1>
+							<p><%= article.content %></p>
+						</aside>
+						<div class="clear"></div>
+					</a>
+				</article>
+				<% }) %>
+				<div class="botton-more"><a href="#" alt="">More</a></div>
+			</main>

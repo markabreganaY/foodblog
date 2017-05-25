@@ -1,0 +1,36 @@
+/* base */
+.container{
+	width: $container;
+	margin:0 auto;
+}
+.container-wrap{
+	width: $container-wrap;
+	margin: 0 auto;
+}
+
+body{
+	background:$primary-background-color;
+	font-family: $primary-font;
+	font-size: $font-size;
+	line-height: $font-height;
+	color: $primary-font-color;
+	letter-spacing: $font-spacing;
+}
+
+.pull-left{
+	float: left;
+}
+.pull-right{
+	float: right;
+}
+.align-right{
+	text-align: right;
+}
+.clear{	
+	clear:both;	
+	height:0; 
+}
+
+.content-section{
+	padding:43px 0 0;
+}
