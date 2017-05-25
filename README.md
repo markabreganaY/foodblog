@@ -1,3 +1,3 @@
 # Food Blog
-Node and EJS implementation
-Not responsive
+* Node and EJS implementation
+* Not responsive
